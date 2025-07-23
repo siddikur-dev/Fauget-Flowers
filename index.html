@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fauget Flowers</title>
+
+    <!--  Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--  Tailwind Css CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <!--   Custom Css  -->
+    <link rel="stylesheet" href="index.css" />
 </head>
-<body>
-    
+
+<body class="bg-[#F5F8FF] text-black ">
+    <header class="text-black ">
+        <nav class="p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <!-- left nav -->
+                <img src="./assets/logo.png" alt="Fauget Flowers Logo" class="h-" />
+
+                <!-- right nav  -->
+                <div class="flex  gap-6 text-sm font-medium  ">
+                    <div class="hidden md:flex items-center gap-6 ">
+                        <a href="#" class="hover:text-[#E95A08] hover:font-bold">Home</a>
+                        <a href="#" class="hover:text-[#E95A08] hover:font-bold">Shop</a>
+                        <a href="#" class="hover:text-[#E95A08] hover:font-bold">About us</a>
+                    </div>
+
+                    <div class="flex items-center gap-2  cursor-pointer">
+                        <i class="fa-solid fa-cart-shopping text-lg"></i>
+                        <a href="#" class="hover:text-[#E95A08] hover:font-bold">Cart ($56)</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
 </body>
+
 </html>
